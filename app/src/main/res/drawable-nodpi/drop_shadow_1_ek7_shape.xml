@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- drop_shadow_1_ek7 from your XD file. -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+	android:shape="rectangle" >
+	<corners android:radius="12dp" />
+	<solid android:color="@color/noise_texture_light_color" />
+</shape>
+

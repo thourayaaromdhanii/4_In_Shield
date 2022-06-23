@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:id="@+id/content_container"
+	android:background="@drawable/noise_texture_light_shape">
+
+
+
+
+				<RelativeLayout android:id="@+id/component___button___normal"
+					android:layout_marginTop="20dp"
+					android:layout_below="@+id/component___button___normal_ek2"
+					android:layout_marginStart="40dp"
+					android:layout_marginEnd="40dp"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:background="@drawable/background_color_shape"
+					>
+
+					<TextView
+						android:id="@+id/button_label"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_marginStart="20dp"
+						android:layout_marginTop="10dp"
+						android:layout_marginBottom="10dp"
+						android:text="@string/button_label_string"
+						android:textColor="@color/button_label_color"
+						android:textSize="18sp" />
+
+					<ImageView
+						android:id="@+id/google_logo_1"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_marginStart="20dp"
+						android:layout_marginTop="10dp"
+						android:layout_marginBottom="10dp"
+						android:layout_toRightOf="@+id/button_label"
+						android:contentDescription="google_logo_1"
+						android:src="@drawable/google_logo_1" />
+
+
+					<ImageView
+								android:id="@+id/path"
+								android:layout_width="6dp"
+								android:layout_height="10dp"
+								android:layout_marginTop="20dp"
+						android:layout_toRightOf="@+id/google_logo_1"
+								android:layout_marginBottom="20dp"
+								android:layout_marginStart="90dp"
+								android:contentDescription="path"
+								android:src="@drawable/path" />
+
+
+
+
+				</RelativeLayout>
+
+
+				<RelativeLayout android:id="@+id/component___button___normal_ek1"
+					android:layout_below="@+id/component___button___normal"
+					android:layout_marginTop="20dp"
+					android:layout_marginStart="40dp"
+					android:layout_marginEnd="40dp"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:background="@drawable/background_color_ek1_shape"
+					>
+
+
+
+						<TextView android:id="@+id/button_label_ek1"
+							android:textSize="18sp"
+							android:textColor="@color/button_label_color"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:layout_marginStart="20dp"
+							android:layout_marginTop="10dp"
+							android:layout_marginBottom="10dp"
+							android:text="@string/button_label_ek1_string"
+							 />
+
+
+					<ImageView
+						android:id="@+id/path_ek1"
+						android:layout_width="6dp"
+						android:layout_height="10dp"
+						android:layout_marginStart="60dp"
+						android:layout_marginEnd="10dp"
+						android:layout_marginTop="20dp"
+						android:layout_marginBottom="20dp"
+						android:layout_toRightOf="@+id/t_l_chargement_1"
+						android:contentDescription="path"
+						android:src="@drawable/path" />
+
+					<ImageView android:id="@+id/t_l_chargement_1"
+						android:src="@drawable/t_l_chargement_1"
+						android:contentDescription="t_l_chargement_1"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_toRightOf="@+id/button_label_ek1"
+						android:layout_marginStart="20dp"
+						android:layout_marginTop="10dp"
+						android:layout_marginBottom="10dp" />
+
+
+				</RelativeLayout>
+
+
+	<RelativeLayout
+		android:id="@+id/component___button___normal_ek2"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_below="@+id/welcome_john__sign_in_to_continue"
+		android:layout_marginTop="70dp"
+		android:layout_marginStart="40dp"
+		android:layout_marginEnd="40dp"
+		android:background="@drawable/background_color_ek2_shape"
+
+		>
+
+
+		<TextView
+			android:id="@+id/button_label_ek2"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginStart="20dp"
+			android:layout_marginTop="10dp"
+			android:layout_marginBottom="10dp"
+			android:text="@string/button_label_ek2_string"
+			android:textColor="@color/button_label_color"
+			android:textSize="18sp" />
+
+
+		<ImageView
+			android:id="@+id/path_ek2"
+			android:layout_width="6dp"
+			android:layout_height="10dp"
+			android:layout_marginStart="90dp"
+			android:layout_marginTop="20dp"
+			android:layout_marginEnd="10dp"
+			android:layout_marginBottom="20dp"
+			android:layout_toRightOf="@+id/icon_mail_png_transparent_background_mail_logo_11562851894ksatrtd2da_1"
+			android:contentDescription="path_ek2"
+			android:src="@drawable/path_ek2" />
+
+		<ImageView
+			android:id="@+id/icon_mail_png_transparent_background_mail_logo_11562851894ksatrtd2da_1"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginStart="20dp"
+			android:layout_marginTop="10dp"
+			android:layout_marginBottom="10dp"
+			android:layout_toRightOf="@+id/button_label_ek2"
+			android:contentDescription="icon_mail_png_transparent_background_mail_logo_11562851894ksatrtd2da_1"
+			android:src="@drawable/icon_mail_png_transparent_background_mail_logo_11562851894ksatrtd2da_1" />
+
+
+	</RelativeLayout>
+
+	<TextView
+		android:id="@+id/welcome_john__sign_in_to_continue"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_below="@+id/microsoftteams_image__23__1"
+		android:layout_marginStart="52dp"
+		android:layout_marginTop="80dp"
+		android:text="@string/welcome_john__sign_in_to_continue_string"
+		android:textColor="@color/_bg__sign_in_1_ek2_color"
+		android:textSize="22sp" />
+
+
+				<RelativeLayout android:id="@+id/component___home_indicator"
+					android:layout_marginTop="810dp"
+					android:layout_marginStart="0dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					>
+
+					<View
+						android:id="@+id/dark_color_13"
+						android:layout_width="148.08dp"
+						android:layout_height="6dp"
+						android:layout_marginStart="118.46dp"
+						android:layout_marginTop="20dp"
+						android:alpha="0.12999999523163"
+						android:background="@drawable/dark_color_13_shape" />
+
+				</RelativeLayout>
+
+
+	<ImageView
+		android:id="@+id/microsoftteams_image__23__1"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_centerHorizontal="true"
+		android:layout_marginTop="57dp"
+		android:contentDescription="microsoftteams_image__23__1"
+		android:src="@drawable/microsoftteams_image__23__1" />
+
+	<TextView
+		android:id="@+id/no_account__sign_up"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_below="@+id/component___button___normal_ek1"
+		android:layout_marginStart="52dp"
+		android:layout_marginTop="50dp"
+		android:alpha="0.86"
+		android:text="@string/no_account__sign_up_string"
+		android:textColor="@color/_bg__sign_in_1_ek2_color"
+		android:textSize="18sp" />
+
+	<View
+		android:id="@+id/underline"
+		android:layout_width="0dp"
+		android:layout_height="2dp"
+		android:layout_below="@+id/no_account__sign_up"
+		android:layout_alignLeft="@+id/no_account__sign_up"
+		android:layout_alignRight="@+id/no_account__sign_up"
+		android:layout_marginTop="5dp"
+		android:alpha="0.15000000596046"
+		android:background="@drawable/underline_shape" />
+
+			</RelativeLayout>
+
+
+
+
+

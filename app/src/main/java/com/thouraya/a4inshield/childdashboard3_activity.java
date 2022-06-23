@@ -1,0 +1,232 @@
+package com.thouraya.a4inshield;
+
+
+import android.app.Activity;
+import android.os.Bundle;
+
+
+import android.view.View;
+import android.widget.ImageView;
+import android.widget.TextView;
+
+    public class childdashboard3_activity extends Activity {
+
+
+        private View _bg__childdashboard3_ek2;
+        private View noise_texture_light_ek15;
+        private View dark_color_13_ek17;
+        private View top_bar_container_ek4;
+        private View white_color_ek6;
+        private View bounds_ek26;
+        private ImageView shape_ek21;
+        private View bounds_ek27;
+        private ImageView shape_ek22;
+        private TextView ___ek4;
+        private View bottom_nav_container_ek2;
+        private View white_color_ek7;
+        private TextView templates_ek8;
+        private View bounds_ek28;
+        private ImageView rectangle_ek38;
+        private TextView templates_ek9;
+        private View bounds_ek29;
+        private ImageView rectangle_ek39;
+        private TextView templates_ek10;
+        private View bounds_ek30;
+        private ImageView rectangle_ek40;
+        private View dark_color_13_ek18;
+        private TextView templates_ek11;
+        private View bounds_ek31;
+        private ImageView rectangle_ek41;
+        private View noise_texture_light_ek16;
+        private View dark_color_13_ek19;
+        private View top_bar_container_ek5;
+        private View white_color_ek8;
+        private View bounds_ek32;
+        private ImageView shape_ek23;
+        private TextView ___ek5;
+        private View drop_shadow_1_ek6;
+        private View background_color_ek45;
+        private View rectangle_172_ek15;
+        private ImageView vector_ek238;
+        private ImageView vector_ek239;
+        private ImageView vector_ek240;
+        private ImageView vector_ek241;
+        private ImageView vector_ek242;
+        private ImageView vector_ek243;
+        private ImageView vector_ek244;
+        private ImageView vector_ek245;
+        private ImageView vector_ek246;
+        private ImageView vector_ek247;
+        private ImageView vector_ek248;
+        private ImageView vector_ek249;
+        private ImageView vector_ek250;
+        private ImageView vector_ek251;
+        private ImageView combined_shape_ek6;
+        private ImageView rectangle_23_ek6;
+        private TextView __29_90_ek10;
+        private View drop_shadow_1_ek7;
+        private View background_color_ek46;
+        private View rectangle_172_ek16;
+        private ImageView vector_ek252;
+        private ImageView vector_ek253;
+        private ImageView vector_ek254;
+        private ImageView vector_ek255;
+        private ImageView vector_ek256;
+        private ImageView vector_ek257;
+        private ImageView vector_ek258;
+        private ImageView vector_ek259;
+        private ImageView vector_ek260;
+        private ImageView vector_ek261;
+        private ImageView vector_ek262;
+        private ImageView vector_ek263;
+        private TextView __29_90_ek11;
+        private ImageView combined_shape_ek7;
+        private ImageView rectangle_23_ek7;
+        private View drop_shadow_1_ek8;
+        private View background_color_ek47;
+        private View rectangle_172_ek17;
+        private ImageView vector_ek264;
+        private ImageView vector_ek265;
+        private ImageView vector_ek266;
+        private ImageView vector_ek267;
+        private ImageView vector_ek268;
+        private ImageView vector_ek269;
+        private ImageView vector_ek270;
+        private ImageView vector_ek271;
+        private ImageView vector_ek272;
+        private ImageView vector_ek273;
+        private ImageView vector_ek274;
+        private ImageView vector_ek275;
+        private TextView __29_90_ek12;
+        private ImageView combined_shape_ek8;
+        private ImageView rectangle_23_ek8;
+        private TextView last_week;
+        private TextView _33;
+        private View background_color_ek48;
+        private View horizontal_line_ek12;
+        private View horizontal_line_ek13;
+        private View horizontal_line_ek14;
+        private View horizontal_line_ek15;
+        private View horizontal_line_ek16;
+        private View horizontal_line_ek17;
+        private TextView bitcoin_ek3;
+        private View bar_ek32;
+        private View bar_ek33;
+        private View bar_ek34;
+        private View bar_ek35;
+        private View bar_ek36;
+        private View bar_ek37;
+        private View bar_ek38;
+        private View bar_ek39;
+
+        @Override
+        public void onCreate(Bundle savedInstanceState) {
+
+            super.onCreate(savedInstanceState);
+            setContentView(R.layout.childdashboard3);
+
+
+            top_bar_container_ek4 = (View) findViewById(R.id.top_bar_container_ek4);
+            white_color_ek6 = (View) findViewById(R.id.white_color_ek6);
+            shape_ek21 = (ImageView) findViewById(R.id.shape_ek21);
+            shape_ek22 = (ImageView) findViewById(R.id.shape_ek22);
+            ___ek4 = (TextView) findViewById(R.id.___ek4);
+            bottom_nav_container_ek2 = (View) findViewById(R.id.bottom_nav_container_ek2);
+            white_color_ek7 = (View) findViewById(R.id.white_color_ek7);
+            templates_ek8 = (TextView) findViewById(R.id.templates_ek8);
+            rectangle_ek38 = (ImageView) findViewById(R.id.rectangle_ek38);
+            templates_ek9 = (TextView) findViewById(R.id.templates_ek9);
+            rectangle_ek39 = (ImageView) findViewById(R.id.rectangle_ek39);
+            templates_ek10 = (TextView) findViewById(R.id.templates_ek10);
+            rectangle_ek40 = (ImageView) findViewById(R.id.rectangle_ek40);
+            templates_ek11 = (TextView) findViewById(R.id.templates_ek11);
+            rectangle_ek41 = (ImageView) findViewById(R.id.rectangle_ek41);
+            noise_texture_light_ek16 = (View) findViewById(R.id.noise_texture_light_ek16);
+            dark_color_13_ek19 = (View) findViewById(R.id.dark_color_13_ek19);
+            top_bar_container_ek5 = (View) findViewById(R.id.top_bar_container_ek5);
+            white_color_ek8 = (View) findViewById(R.id.white_color_ek8);
+            bounds_ek32 = (View) findViewById(R.id.bounds_ek32);
+            shape_ek23 = (ImageView) findViewById(R.id.shape_ek23);
+            ___ek5 = (TextView) findViewById(R.id.___ek5);
+            drop_shadow_1_ek6 = (View) findViewById(R.id.drop_shadow_1_ek6);
+            background_color_ek45 = (View) findViewById(R.id.background_color_ek45);
+            rectangle_172_ek15 = (View) findViewById(R.id.rectangle_172_ek15);
+            vector_ek238 = (ImageView) findViewById(R.id.vector_ek238);
+            vector_ek239 = (ImageView) findViewById(R.id.vector_ek239);
+            vector_ek240 = (ImageView) findViewById(R.id.vector_ek240);
+            vector_ek241 = (ImageView) findViewById(R.id.vector_ek241);
+            vector_ek242 = (ImageView) findViewById(R.id.vector_ek242);
+            vector_ek243 = (ImageView) findViewById(R.id.vector_ek243);
+            vector_ek244 = (ImageView) findViewById(R.id.vector_ek244);
+            vector_ek245 = (ImageView) findViewById(R.id.vector_ek245);
+            vector_ek246 = (ImageView) findViewById(R.id.vector_ek246);
+            vector_ek247 = (ImageView) findViewById(R.id.vector_ek247);
+            vector_ek248 = (ImageView) findViewById(R.id.vector_ek248);
+            vector_ek249 = (ImageView) findViewById(R.id.vector_ek249);
+            vector_ek250 = (ImageView) findViewById(R.id.vector_ek250);
+            vector_ek251 = (ImageView) findViewById(R.id.vector_ek251);
+            combined_shape_ek6 = (ImageView) findViewById(R.id.combined_shape_ek6);
+            rectangle_23_ek6 = (ImageView) findViewById(R.id.rectangle_23_ek6);
+            __29_90_ek10 = (TextView) findViewById(R.id.__29_90_ek10);
+            drop_shadow_1_ek7 = (View) findViewById(R.id.drop_shadow_1_ek7);
+            background_color_ek46 = (View) findViewById(R.id.background_color_ek46);
+            rectangle_172_ek16 = (View) findViewById(R.id.rectangle_172_ek16);
+            vector_ek252 = (ImageView) findViewById(R.id.vector_ek252);
+            vector_ek253 = (ImageView) findViewById(R.id.vector_ek253);
+            vector_ek254 = (ImageView) findViewById(R.id.vector_ek254);
+            vector_ek255 = (ImageView) findViewById(R.id.vector_ek255);
+            vector_ek256 = (ImageView) findViewById(R.id.vector_ek256);
+            vector_ek257 = (ImageView) findViewById(R.id.vector_ek257);
+            vector_ek258 = (ImageView) findViewById(R.id.vector_ek258);
+            vector_ek259 = (ImageView) findViewById(R.id.vector_ek259);
+            vector_ek260 = (ImageView) findViewById(R.id.vector_ek260);
+            vector_ek261 = (ImageView) findViewById(R.id.vector_ek261);
+            vector_ek262 = (ImageView) findViewById(R.id.vector_ek262);
+            vector_ek263 = (ImageView) findViewById(R.id.vector_ek263);
+            __29_90_ek11 = (TextView) findViewById(R.id.__29_90_ek11);
+            combined_shape_ek7 = (ImageView) findViewById(R.id.combined_shape_ek7);
+            rectangle_23_ek7 = (ImageView) findViewById(R.id.rectangle_23_ek7);
+            drop_shadow_1_ek8 = (View) findViewById(R.id.drop_shadow_1_ek8);
+            background_color_ek47 = (View) findViewById(R.id.background_color_ek47);
+            rectangle_172_ek17 = (View) findViewById(R.id.rectangle_172_ek17);
+            vector_ek264 = (ImageView) findViewById(R.id.vector_ek264);
+            vector_ek265 = (ImageView) findViewById(R.id.vector_ek265);
+            vector_ek266 = (ImageView) findViewById(R.id.vector_ek266);
+            vector_ek267 = (ImageView) findViewById(R.id.vector_ek267);
+            vector_ek268 = (ImageView) findViewById(R.id.vector_ek268);
+            vector_ek269 = (ImageView) findViewById(R.id.vector_ek269);
+            vector_ek270 = (ImageView) findViewById(R.id.vector_ek270);
+            vector_ek271 = (ImageView) findViewById(R.id.vector_ek271);
+            vector_ek272 = (ImageView) findViewById(R.id.vector_ek272);
+            vector_ek273 = (ImageView) findViewById(R.id.vector_ek273);
+            vector_ek274 = (ImageView) findViewById(R.id.vector_ek274);
+            vector_ek275 = (ImageView) findViewById(R.id.vector_ek275);
+            __29_90_ek12 = (TextView) findViewById(R.id.__29_90_ek12);
+            combined_shape_ek8 = (ImageView) findViewById(R.id.combined_shape_ek8);
+            rectangle_23_ek8 = (ImageView) findViewById(R.id.rectangle_23_ek8);
+            last_week = (TextView) findViewById(R.id.last_week);
+            _33 = (TextView) findViewById(R.id._33);
+            background_color_ek48 = (View) findViewById(R.id.background_color_ek48);
+            horizontal_line_ek12 = (View) findViewById(R.id.horizontal_line_ek12);
+            horizontal_line_ek13 = (View) findViewById(R.id.horizontal_line_ek13);
+            horizontal_line_ek14 = (View) findViewById(R.id.horizontal_line_ek14);
+            horizontal_line_ek15 = (View) findViewById(R.id.horizontal_line_ek15);
+            horizontal_line_ek16 = (View) findViewById(R.id.horizontal_line_ek16);
+            horizontal_line_ek17 = (View) findViewById(R.id.horizontal_line_ek17);
+            bitcoin_ek3 = (TextView) findViewById(R.id.bitcoin_ek3);
+            bar_ek32 = (View) findViewById(R.id.bar_ek32);
+            bar_ek33 = (View) findViewById(R.id.bar_ek33);
+            bar_ek34 = (View) findViewById(R.id.bar_ek34);
+            bar_ek35 = (View) findViewById(R.id.bar_ek35);
+            bar_ek36 = (View) findViewById(R.id.bar_ek36);
+            bar_ek37 = (View) findViewById(R.id.bar_ek37);
+            bar_ek38 = (View) findViewById(R.id.bar_ek38);
+            bar_ek39 = (View) findViewById(R.id.bar_ek39);
+
+
+            //custom code goes here
+
+        }
+    }
+	
+	

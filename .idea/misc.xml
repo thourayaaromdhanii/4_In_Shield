@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/thouraya_romdhani/AndroidStudioProjects/4InShield2/app/src/main/res/drawable-nodpi/_bg__sign_in_1_ek2_shape.xml" value="0.1415" />
+        <entry key="..\:/Users/thouraya_romdhani/AndroidStudioProjects/4InShield2/app/src/main/res/drawable-nodpi/background_color_ek2_shape.xml" value="0.149" />
+        <entry key="..\:/Users/thouraya_romdhani/AndroidStudioProjects/4InShield2/app/src/main/res/drawable/_bg__spacechose0_ek2_shape.xml" value="0.1555" />
+        <entry key="..\:/Users/thouraya_romdhani/AndroidStudioProjects/4InShield2/app/src/main/res/drawable/ic_arrow_foreground.xml" value="0.1" />
+        <entry key="..\:/Users/thouraya_romdhani/AndroidStudioProjects/4InShield2/app/src/main/res/layout/activity_sign_in1.xml" value="0.25" />
+        <entry key="..\:/Users/thouraya_romdhani/AndroidStudioProjects/4InShield2/app/src/main/res/layout/addchild.xml" value="0.25" />
+        <entry key="..\:/Users/thouraya_romdhani/AndroidStudioProjects/4InShield2/app/src/main/res/layout/adddevice.xml" value="0.2" />
+        <entry key="..\:/Users/thouraya_romdhani/AndroidStudioProjects/4InShield2/app/src/main/res/layout/addprofile.xml" value="0.2" />
+        <entry key="..\:/Users/thouraya_romdhani/AndroidStudioProjects/4InShield2/app/src/main/res/layout/applicationlist.xml" value="0.16" />
+        <entry key="..\:/Users/thouraya_romdhani/AndroidStudioProjects/4InShield2/app/src/main/res/layout/bienvenu.xml" value="0.264" />
+        <entry key="..\:/Users/thouraya_romdhani/AndroidStudioProjects/4InShield2/app/src/main/res/layout/childdashboard.xml" value="0.2" />
+        <entry key="..\:/Users/thouraya_romdhani/AndroidStudioProjects/4InShield2/app/src/main/res/layout/childdashboard2.xml" value="0.264" />
+        <entry key="..\:/Users/thouraya_romdhani/AndroidStudioProjects/4InShield2/app/src/main/res/layout/childdashboard3.xml" value="0.2" />
+        <entry key="..\:/Users/thouraya_romdhani/AndroidStudioProjects/4InShield2/app/src/main/res/layout/confirmprofile.xml" value="0.176" />
+        <entry key="..\:/Users/thouraya_romdhani/AndroidStudioProjects/4InShield2/app/src/main/res/layout/congratswizardend.xml" value="0.2" />
+        <entry key="..\:/Users/thouraya_romdhani/AndroidStudioProjects/4InShield2/app/src/main/res/layout/congratswizardend1.xml" value="0.1490036231884058" />
+        <entry key="..\:/Users/thouraya_romdhani/AndroidStudioProjects/4InShield2/app/src/main/res/layout/sign_in_1.xml" value="0.264" />
+        <entry key="..\:/Users/thouraya_romdhani/AndroidStudioProjects/4InShield2/app/src/main/res/layout/sign_in_2.xml" value="0.25" />
+        <entry key="..\:/Users/thouraya_romdhani/AndroidStudioProjects/4InShield2/app/src/main/res/layout/sign_in_3.xml" value="0.1686656671664168" />
+        <entry key="..\:/Users/thouraya_romdhani/AndroidStudioProjects/4InShield2/app/src/main/res/layout/spacechose.xml" value="0.1490036231884058" />
+        <entry key="..\:/Users/thouraya_romdhani/AndroidStudioProjects/4InShield2/app/src/main/res/mipmap-anydpi-v26/ic_arrow.xml" value="0.121" />
+        <entry key="..\:/Users/thouraya_romdhani/AndroidStudioProjects/4InShield2/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.121" />
+        <entry key="..\:/Users/thouraya_romdhani/AndroidStudioProjects/4InShield2/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.121" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

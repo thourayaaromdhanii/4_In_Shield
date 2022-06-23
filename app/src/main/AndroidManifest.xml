@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.thouraya.a4inshield" >
+
+
+
+    <application
+        android:allowBackup="true"
+        android:theme="@style/AppTheme"
+        android:label="@string/app_name" >
+        <activity
+            android:name=".sign_in_1_activity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/app_name"
+           >
+        </activity>
+
+        <activity android:name=".sign_in_2_activity"></activity>
+        <activity android:name=".sign_in_3_activity"></activity>
+        <activity android:name=".adddevice_activity"></activity>
+        <activity android:name=".addprofile_activity"></activity>
+        <activity android:name="com.thouraya.a4inshield.addchild_activity"></activity>
+        <activity android:name="com.thouraya.a4inshield.congratswizardend_activity"></activity>
+        <activity android:name="com.thouraya.a4inshield.congratswizardend1_activity"></activity>
+        <activity android:name="com.thouraya.a4inshield.spacechose_activity"></activity>
+        <activity android:name="com.thouraya.a4inshield.bienvenu_activity"  android:exported="true"  >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter></activity>
+        <activity android:name="com.thouraya.a4inshield.confirmprofile_activity"></activity>
+        <activity android:name="com.thouraya.a4inshield.childdashboard_activity"></activity>
+        <activity android:name="com.thouraya.a4inshield.childdashboard2_activity"></activity>
+        <activity android:name="com.thouraya.a4inshield.childdashboard3_activity"></activity>
+        <activity android:name="com.thouraya.a4inshield.applicationlist_activity"></activity>
+    </application>
+
+</manifest>
+

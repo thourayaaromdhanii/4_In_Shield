@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:id="@+id/content_container"
+	android:background="@drawable/noise_texture_light_shape">
+
+
+	<RelativeLayout
+		android:id="@+id/component___button___normal_ek4"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_below="@+id/component___input_text_field___large_ek5"
+		android:layout_marginStart="40dp"
+		android:layout_marginTop="20dp"
+		android:layout_marginEnd="40dp"
+		android:background="@drawable/background_color_ek6_shape"
+
+		>
+
+		<EditText
+			android:id="@+id/Password"
+			android:layout_width="match_parent"
+			android:layout_height="50dp"
+			android:background="@null"
+			android:hint="@string/password_string"
+			android:paddingStart="20dp"
+			android:textSize="18dp"
+			android:inputType="textPassword"/>
+
+	</RelativeLayout>
+
+
+	<RelativeLayout
+		android:id="@+id/component___button___normal_ek5"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_below="@+id/component___button___normal_ek4"
+		android:layout_marginStart="40dp"
+		android:layout_marginTop="20dp"
+		android:layout_marginEnd="40dp"
+		android:background="@drawable/background_color_ek6_shape">
+
+		<EditText
+			android:id="@+id/confirm_Password"
+			android:layout_width="match_parent"
+			android:layout_height="50dp"
+			android:background="@null"
+			android:hint="@string/username_ek2_string"
+			android:inputType="textPassword"
+			android:paddingStart="20dp"
+			android:textSize="18dp" />
+
+
+	</RelativeLayout>
+
+
+	<RelativeLayout
+		android:id="@+id/component___button___normal_ek3"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_below="@+id/forgot_password__ek1"
+		android:layout_centerHorizontal="true"
+		android:layout_marginTop="20dp"
+		android:background="@drawable/background_color_ek3_shape">
+
+
+		<TextView
+			android:id="@+id/button_label_ek3"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginStart="13dp"
+			android:layout_marginTop="10dp"
+			android:layout_marginEnd="13dp"
+			android:layout_marginBottom="10dp"
+			android:text="@string/button_label_ek3_string"
+			android:textColor="@color/button_label_color"
+			android:textSize="18sp"
+			android:textStyle="bold" />
+
+		<ImageView
+			android:id="@+id/path_ek3"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_centerVertical="true"
+			android:layout_marginStart="5dp"
+			android:layout_marginEnd="10dp"
+			android:layout_toRightOf="@+id/button_label_ek3"
+			android:contentDescription="path_ek3"
+			android:src="@drawable/path_ek3" />
+
+
+	</RelativeLayout>
+
+
+	<RelativeLayout
+		android:id="@+id/component___input_text_field___large_ek4"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_below="@+id/welcome_john__sign_in_to_continue_ek2"
+		android:layout_marginStart="40dp"
+		android:layout_marginTop="70dp"
+		android:layout_marginEnd="40dp"
+		android:background="@drawable/background_color_ek6_shape">
+
+		<EditText
+			android:id="@+id/Username"
+			android:layout_width="match_parent"
+			android:layout_height="50dp"
+			android:background="@null"
+			android:hint="@string/username_string"
+			android:paddingStart="20dp"
+			android:textSize="18dp" />
+
+	</RelativeLayout>
+
+
+	<RelativeLayout
+		android:id="@+id/component___input_text_field___large_ek5"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_below="@+id/component___input_text_field___large_ek4"
+		android:layout_marginStart="40dp"
+		android:layout_marginTop="20dp"
+		android:layout_marginEnd="40dp"
+		android:background="@drawable/background_color_ek6_shape"
+
+		>
+		<EditText
+			android:id="@+id/email"
+			android:layout_width="match_parent"
+			android:layout_height="50dp"
+			android:background="@null"
+			android:hint="@string/username_ek3_string"
+			android:paddingStart="20dp"
+			android:textSize="18dp"
+			android:inputType="textEmailAddress"/>
+
+	</RelativeLayout>
+
+
+	<TextView
+		android:id="@+id/welcome_john__sign_in_to_continue_ek2"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_below="@+id/microsoftteams_image__23__2_ek1"
+		android:layout_marginStart="52dp"
+		android:layout_marginTop="80dp"
+		android:text="@string/welcome_john__sign_in_to_continue_string"
+		android:textColor="@color/_bg__sign_in_1_ek2_color"
+		android:textSize="22sp" />
+
+
+	<RelativeLayout
+		android:id="@+id/component___home_indicator_ek2"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_below="@+id/component___button___normal_ek3"
+		android:layout_centerHorizontal="true"
+		android:layout_marginTop="10dp"
+		android:layout_marginBottom="8dp">
+
+		<View
+			android:id="@+id/dark_color_13_ek2"
+			android:layout_width="148dp"
+			android:layout_height="5dp"
+			android:background="@drawable/dark_color_13_ek2_shape" />
+
+	</RelativeLayout>
+
+
+	<ImageView
+		android:id="@+id/microsoftteams_image__23__2_ek1"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_centerHorizontal="true"
+		android:layout_marginTop="57dp"
+		android:contentDescription="microsoftteams_image__23__2_ek1"
+		android:src="@drawable/microsoftteams_image__23__2_ek1" />
+
+	<TextView
+		android:id="@+id/forgot_password__ek1"
+		android:layout_width="241dp"
+		android:layout_height="35dp"
+		android:layout_below="@+id/component___button___normal_ek5"
+		android:layout_marginLeft="71dp"
+		android:layout_marginTop="20dp"
+		android:text="@string/forgot_password__ek1_string"
+		android:textColor="@color/_bg__sign_in_1_ek2_color"
+		android:textSize="14sp" />
+
+			</RelativeLayout>
+
+
+
+
+
+
+
+

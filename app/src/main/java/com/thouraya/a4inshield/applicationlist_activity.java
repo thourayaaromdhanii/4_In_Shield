@@ -1,0 +1,235 @@
+package com.thouraya.a4inshield;
+
+
+import android.app.Activity;
+import android.os.Bundle;
+
+
+import android.view.View;
+import android.widget.ImageView;
+import android.widget.TextView;
+
+    public class applicationlist_activity extends Activity {
+
+
+        private View _bg__applicationlist_ek2;
+        private View noise_texture_light_ek17;
+        private ImageView divider;
+        private TextView last_list_item;
+        private TextView on;
+        private View bounds_ek33;
+        private ImageView shape_ek24;
+        private View background_color_ek49;
+        private View inner_shadow_2_concave;
+        private ImageView noise_texture_transparent;
+        private View drop_shadow_1_darker;
+        private View background_color_ek50;
+        private View bounds_ek34;
+        private ImageView path_ek94;
+        private ImageView divider_ek1;
+        private ImageView divider_ek2;
+        private TextView additional_option;
+        private View bounds_ek35;
+        private ImageView combined_shape_ek9;
+        private View bounds_ek36;
+        private ImageView shape_ek25;
+        private ImageView divider_ek3;
+        private TextView fifth_list_item;
+        private View bounds_ek37;
+        private ImageView shape_ek26;
+        private View bounds_ek38;
+        private ImageView path_ek95;
+        private ImageView divider_ek4;
+        private TextView third_value;
+        private TextView anything_else;
+        private View bounds_ek39;
+        private ImageView shape_ek27;
+        private View bounds_ek40;
+        private ImageView path_ek96;
+        private ImageView divider_ek5;
+        private TextView third_list_item;
+        private View bounds_ek41;
+        private ImageView combined_shape_ek10;
+        private TextView on_ek1;
+        private View background_color_ek51;
+        private View inner_shadow_2_concave_ek1;
+        private ImageView noise_texture_transparent_ek1;
+        private View drop_shadow_1_darker_ek1;
+        private View background_color_ek52;
+        private View bounds_ek42;
+        private ImageView path_ek97;
+        private ImageView divider_ek6;
+        private TextView one_more_option;
+        private View bounds_ek43;
+        private ImageView combined_shape_ek11;
+        private TextView off;
+        private View background_color_ek53;
+        private View inner_shadow_1_concave;
+        private View drop_shadow_1_ek9;
+        private View background_color_ek54;
+        private View bounds_ek44;
+        private ImageView path_ek98;
+        private ImageView divider_ek7;
+        private TextView first_value;
+        private TextView first_list_item;
+        private View bounds_ek45;
+        private ImageView shape_ek28;
+        private View bounds_ek46;
+        private ImageView path_ek99;
+        private View noise_texture_light_ek18;
+        private ImageView google_logo_1_ek1;
+        private TextView on_ek2;
+        private View background_color_ek55;
+        private View inner_shadow_2_concave_ek2;
+        private ImageView noise_texture_transparent_ek2;
+        private View drop_shadow_1_darker_ek2;
+        private View background_color_ek56;
+        private View bounds_ek47;
+        private ImageView path_ek100;
+        private ImageView divider_ek8;
+        private TextView one_more_option_ek1;
+        private TextView off_ek1;
+        private View background_color_ek57;
+        private View inner_shadow_1_concave_ek1;
+        private View drop_shadow_1_ek10;
+        private View background_color_ek58;
+        private View bounds_ek48;
+        private ImageView path_ek101;
+        private ImageView divider_ek9;
+        private TextView first_list_item_ek1;
+        private View bottom_nav_container_ek3;
+        private View white_color_ek9;
+        private TextView templates_ek12;
+        private View bounds_ek49;
+        private ImageView rectangle_ek42;
+        private TextView templates_ek13;
+        private View bounds_ek50;
+        private ImageView rectangle_ek43;
+        private TextView templates_ek14;
+        private View bounds_ek51;
+        private ImageView rectangle_ek44;
+        private TextView templates_ek15;
+        private View bounds_ek52;
+        private ImageView rectangle_ek45;
+        private View dark_color_13_ek20;
+        private View top_bar_container_ek6;
+        private View white_color_ek10;
+        private View bounds_ek53;
+        private ImageView shape_ek29;
+        private View bounds_ek54;
+        private ImageView shape_ek30;
+        private TextView ___ek6;
+        private View background_color_ek59;
+        private View inner_shadow_1_ek13;
+        private View bound;
+        private ImageView path_2;
+        private ImageView path_ek102;
+        private ImageView camera_icon_1;
+
+        @Override
+        public void onCreate(Bundle savedInstanceState) {
+
+            super.onCreate(savedInstanceState);
+            setContentView(R.layout.applicationlist);
+
+
+            divider = (ImageView) findViewById(R.id.divider);
+            last_list_item = (TextView) findViewById(R.id.last_list_item);
+            on = (TextView) findViewById(R.id.on);
+            bounds_ek33 = (View) findViewById(R.id.bounds_ek33);
+            shape_ek24 = (ImageView) findViewById(R.id.shape_ek24);
+            background_color_ek49 = (View) findViewById(R.id.background_color_ek49);
+            inner_shadow_2_concave = (View) findViewById(R.id.inner_shadow_2_concave);
+            noise_texture_transparent = (ImageView) findViewById(R.id.noise_texture_transparent);
+            drop_shadow_1_darker = (View) findViewById(R.id.drop_shadow_1_darker);
+            background_color_ek50 = (View) findViewById(R.id.background_color_ek50);
+            bounds_ek34 = (View) findViewById(R.id.bounds_ek34);
+            path_ek94 = (ImageView) findViewById(R.id.path_ek94);
+            divider_ek1 = (ImageView) findViewById(R.id.divider_ek1);
+            divider_ek2 = (ImageView) findViewById(R.id.divider_ek2);
+            additional_option = (TextView) findViewById(R.id.additional_option);
+            bounds_ek35 = (View) findViewById(R.id.bounds_ek35);
+            combined_shape_ek9 = (ImageView) findViewById(R.id.combined_shape_ek9);
+            bounds_ek36 = (View) findViewById(R.id.bounds_ek36);
+            shape_ek25 = (ImageView) findViewById(R.id.shape_ek25);
+            divider_ek3 = (ImageView) findViewById(R.id.divider_ek3);
+            fifth_list_item = (TextView) findViewById(R.id.fifth_list_item);
+            bounds_ek37 = (View) findViewById(R.id.bounds_ek37);
+            shape_ek26 = (ImageView) findViewById(R.id.shape_ek26);
+            bounds_ek38 = (View) findViewById(R.id.bounds_ek38);
+            path_ek95 = (ImageView) findViewById(R.id.path_ek95);
+            divider_ek4 = (ImageView) findViewById(R.id.divider_ek4);
+            third_value = (TextView) findViewById(R.id.third_value);
+            anything_else = (TextView) findViewById(R.id.anything_else);
+            bounds_ek39 = (View) findViewById(R.id.bounds_ek39);
+            shape_ek27 = (ImageView) findViewById(R.id.shape_ek27);
+            bounds_ek40 = (View) findViewById(R.id.bounds_ek40);
+            path_ek96 = (ImageView) findViewById(R.id.path_ek96);
+            divider_ek5 = (ImageView) findViewById(R.id.divider_ek5);
+            third_list_item = (TextView) findViewById(R.id.third_list_item);
+            bounds_ek41 = (View) findViewById(R.id.bounds_ek41);
+            combined_shape_ek10 = (ImageView) findViewById(R.id.combined_shape_ek10);
+            on_ek1 = (TextView) findViewById(R.id.on_ek1);
+            background_color_ek51 = (View) findViewById(R.id.background_color_ek51);
+            inner_shadow_2_concave_ek1 = (View) findViewById(R.id.inner_shadow_2_concave_ek1);
+            noise_texture_transparent_ek1 = (ImageView) findViewById(R.id.noise_texture_transparent_ek1);
+            drop_shadow_1_darker_ek1 = (View) findViewById(R.id.drop_shadow_1_darker_ek1);
+            background_color_ek52 = (View) findViewById(R.id.background_color_ek52);
+            bounds_ek42 = (View) findViewById(R.id.bounds_ek42);
+            path_ek97 = (ImageView) findViewById(R.id.path_ek97);
+            divider_ek6 = (ImageView) findViewById(R.id.divider_ek6);
+            one_more_option = (TextView) findViewById(R.id.one_more_option);
+            bounds_ek43 = (View) findViewById(R.id.bounds_ek43);
+            combined_shape_ek11 = (ImageView) findViewById(R.id.combined_shape_ek11);
+            off = (TextView) findViewById(R.id.off);
+            background_color_ek53 = (View) findViewById(R.id.background_color_ek53);
+            inner_shadow_1_concave = (View) findViewById(R.id.inner_shadow_1_concave);
+            drop_shadow_1_ek9 = (View) findViewById(R.id.drop_shadow_1_ek9);
+            background_color_ek54 = (View) findViewById(R.id.background_color_ek54);
+            bounds_ek44 = (View) findViewById(R.id.bounds_ek44);
+            path_ek98 = (ImageView) findViewById(R.id.path_ek98);
+            divider_ek7 = (ImageView) findViewById(R.id.divider_ek7);
+            first_value = (TextView) findViewById(R.id.first_value);
+            first_list_item = (TextView) findViewById(R.id.first_list_item);
+            bounds_ek45 = (View) findViewById(R.id.bounds_ek45);
+            shape_ek28 = (ImageView) findViewById(R.id.shape_ek28);
+            bounds_ek46 = (View) findViewById(R.id.bounds_ek46);
+            path_ek99 = (ImageView) findViewById(R.id.path_ek99);
+            noise_texture_light_ek18 = (View) findViewById(R.id.noise_texture_light_ek18);
+            google_logo_1_ek1 = (ImageView) findViewById(R.id.google_logo_1_ek1);
+            on_ek2 = (TextView) findViewById(R.id.on_ek2);
+            background_color_ek55 = (View) findViewById(R.id.background_color_ek55);
+            inner_shadow_2_concave_ek2 = (View) findViewById(R.id.inner_shadow_2_concave_ek2);
+            noise_texture_transparent_ek2 = (ImageView) findViewById(R.id.noise_texture_transparent_ek2);
+            drop_shadow_1_darker_ek2 = (View) findViewById(R.id.drop_shadow_1_darker_ek2);
+            background_color_ek56 = (View) findViewById(R.id.background_color_ek56);
+            bounds_ek47 = (View) findViewById(R.id.bounds_ek47);
+            path_ek100 = (ImageView) findViewById(R.id.path_ek100);
+            divider_ek8 = (ImageView) findViewById(R.id.divider_ek8);
+            one_more_option_ek1 = (TextView) findViewById(R.id.one_more_option_ek1);
+            off_ek1 = (TextView) findViewById(R.id.off_ek1);
+            background_color_ek57 = (View) findViewById(R.id.background_color_ek57);
+            inner_shadow_1_concave_ek1 = (View) findViewById(R.id.inner_shadow_1_concave_ek1);
+            drop_shadow_1_ek10 = (View) findViewById(R.id.drop_shadow_1_ek10);
+            background_color_ek58 = (View) findViewById(R.id.background_color_ek58);
+            bounds_ek48 = (View) findViewById(R.id.bounds_ek48);
+            path_ek101 = (ImageView) findViewById(R.id.path_ek101);
+            divider_ek9 = (ImageView) findViewById(R.id.divider_ek9);
+            first_list_item_ek1 = (TextView) findViewById(R.id.first_list_item_ek1);
+            shape_ek29 = (ImageView) findViewById(R.id.shape_ek29);
+            shape_ek30 = (ImageView) findViewById(R.id.shape_ek30);
+            ___ek6 = (TextView) findViewById(R.id.___ek6);
+            background_color_ek59 = (View) findViewById(R.id.background_color_ek59);
+            inner_shadow_1_ek13 = (View) findViewById(R.id.inner_shadow_1_ek13);
+            bound = (View) findViewById(R.id.bound);
+            path_2 = (ImageView) findViewById(R.id.path_2);
+            path_ek102 = (ImageView) findViewById(R.id.path_ek102);
+            camera_icon_1 = (ImageView) findViewById(R.id.camera_icon_1);
+
+
+            //custom code goes here
+
+        }
+    }
+	
+	
